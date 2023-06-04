@@ -34,8 +34,8 @@ const ResumeProjectPanel = (props) => {
                         <Text color='text.500' fontSize='md' mb='20px'>{props.description}</Text>
                     }
                     <List spacing={1}>
-                        {props.contributions.map((contribution) => (
-                            <ListItem color='text.300' fontSize={isTablet ? "xs" : 'md'}>
+                        {props.contributions.map((contribution,i) => (
+                            <ListItem key={i} color='text.300' fontSize={isTablet ? "xs" : 'md'}>
                                 <ListIcon as={HiCode} color='text.500' />
                                 {contribution}
                             </ListItem>

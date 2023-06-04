@@ -46,7 +46,7 @@ const Publications = () => {
                 delay={400}
                 title='Creating Beautiful Frontend Apps: A Guide to Consistent Aesthetics'
                 snippet="But what if designing frontend apps were easier than many would think and didn't even require a UX designer to perfect a color palette and layout?"
-
+                url="https://medium.com/@felixluebken2000/creating-beautiful-frontend-apps-a-guide-to-consistent-aesthetics-d7fdef10eb9a"
             />
 
         </SimpleGrid>

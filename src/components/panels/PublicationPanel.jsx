@@ -23,7 +23,7 @@ const PublicationPanel = (props) => {
 
     return <RenderIfVisible>
         <FadeIn delay={props.delay}>
-            <Panel position='relative' light h={isTablet ? '268px' : '320px'}>
+            <Panel position='relative' light h={isTablet ? '280px' : '320px'}>
                 <Flex alignItems='top' justifyContent='space-between'>
                     <Center w='32px' h='32px' bg='black' borderRadius='10px' mb='5px'>
                         <Icon as={props.icon} w={5} h={8} color='text.900' />

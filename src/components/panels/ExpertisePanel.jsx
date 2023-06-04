@@ -15,7 +15,7 @@ const ExpertisePanel = (props) => {
 
     return <RenderIfVisible>
         <FadeIn delay={props.delay}>
-            <Panel position='relative' light h={isTablet ? '260px' : '320px'}>
+            <Panel position='relative' light h={isTablet ? '280px' : '320px'}>
                 <Flex alignItems='center' mb='20px'>
                 <Center w='52px' h='52px' bgGradient={props.iconGradient} borderRadius='18px'>
                     <Icon as={props.icon} w={8} h={8} color='text.900' />
